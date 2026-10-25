@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-ink-950 text-white antialiased; }
+.glass { @apply border border-white/10 bg-white/[0.06] backdrop-blur-xl; }
+.field { @apply w-full rounded-xl border border-white/10 bg-ink-800 px-4 py-3 text-sm text-white placeholder:text-white/40 outline-none transition focus:border-jade focus:ring-2 focus:ring-jade/30; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
